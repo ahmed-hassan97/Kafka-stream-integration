@@ -1,0 +1,101 @@
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+23/02/04 17:40:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/02/04 17:40:20 INFO SparkContext: Running Spark version 3.3.1
+23/02/04 17:40:21 INFO ResourceUtils: ==============================================================
+23/02/04 17:40:21 INFO ResourceUtils: No custom resources configured for spark.driver.
+23/02/04 17:40:21 INFO ResourceUtils: ==============================================================
+23/02/04 17:40:21 INFO SparkContext: Submitted application: SparkByExamples.com
+23/02/04 17:40:21 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+23/02/04 17:40:21 INFO ResourceProfile: Limiting resource is cpu
+23/02/04 17:40:21 INFO ResourceProfileManager: Added ResourceProfile id: 0
+23/02/04 17:40:21 INFO SecurityManager: Changing view acls to: ahmed
+23/02/04 17:40:21 INFO SecurityManager: Changing modify acls to: ahmed
+23/02/04 17:40:21 INFO SecurityManager: Changing view acls groups to: 
+23/02/04 17:40:21 INFO SecurityManager: Changing modify acls groups to: 
+23/02/04 17:40:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ahmed); groups with view permissions: Set(); users  with modify permissions: Set(ahmed); groups with modify permissions: Set()
+23/02/04 17:40:22 INFO Utils: Successfully started service 'sparkDriver' on port 35615.
+23/02/04 17:40:22 INFO SparkEnv: Registering MapOutputTracker
+23/02/04 17:40:22 INFO SparkEnv: Registering BlockManagerMaster
+23/02/04 17:40:22 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+23/02/04 17:40:22 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+23/02/04 17:40:22 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+23/02/04 17:40:22 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-d20b93a0-c9db-4baf-afd9-9ead8704225c
+23/02/04 17:40:22 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+23/02/04 17:40:23 INFO SparkEnv: Registering OutputCommitCoordinator
+23/02/04 17:40:23 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+23/02/04 17:40:23 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.3.1.jar at spark://192.168.1.16:35615/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.3.1.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.3.1.jar at spark://192.168.1.16:35615/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.3.1.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.kafka_kafka-clients-2.8.1.jar at spark://192.168.1.16:35615/jars/org.apache.kafka_kafka-clients-2.8.1.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.0.jar at spark://192.168.1.16:35615/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.commons_commons-pool2-2.11.1.jar at spark://192.168.1.16:35615/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.spark-project.spark_unused-1.0.0.jar at spark://192.168.1.16:35615/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.hadoop_hadoop-client-runtime-3.3.2.jar at spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-runtime-3.3.2.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.lz4_lz4-java-1.8.0.jar at spark://192.168.1.16:35615/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar at spark://192.168.1.16:35615/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.slf4j_slf4j-api-1.7.32.jar at spark://192.168.1.16:35615/jars/org.slf4j_slf4j-api-1.7.32.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/org.apache.hadoop_hadoop-client-api-3.3.2.jar at spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-api-3.3.2.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:///home/ahmed/.ivy2/jars/commons-logging_commons-logging-1.1.3.jar at spark://192.168.1.16:35615/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1675525220933
+23/02/04 17:40:23 INFO SparkContext: Added JAR file:/media/ahmed/New%20Volume8/Udacity%20-%20Data%20Streaming%20Nanodegree/project/Udacity-Data-straming-Nanodegree/IOT_Integration/StreamHandler/target/scala-2.12/spark-daria_2.12-1.0.jar at spark://192.168.1.16:35615/jars/spark-daria_2.12-1.0.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Executor: Starting executor ID driver on host 192.168.1.16
+23/02/04 17:40:24 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.kafka_kafka-clients-2.8.1.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO TransportClientFactory: Successfully created connection to /192.168.1.16:35615 after 131 ms (0 ms spent in bootstraps)
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.kafka_kafka-clients-2.8.1.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp8453813632139134930.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.kafka_kafka-clients-2.8.1.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.3.1.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.3.1.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp136563968613029923.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.spark_spark-token-provider-kafka-0-10_2.12-3.3.1.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.xerial.snappy_snappy-java-1.1.8.4.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp1896714799232269503.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.xerial.snappy_snappy-java-1.1.8.4.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.3.1.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.spark_spark-sql-kafka-0-10_2.12-3.3.1.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp8494638699298293295.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.spark_spark-sql-kafka-0-10_2.12-3.3.1.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.lz4_lz4-java-1.8.0.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.lz4_lz4-java-1.8.0.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp4667870154824449365.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.lz4_lz4-java-1.8.0.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/spark-daria_2.12-1.0.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/spark-daria_2.12-1.0.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp4995756834970969369.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/spark-daria_2.12-1.0.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.slf4j_slf4j-api-1.7.32.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.slf4j_slf4j-api-1.7.32.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp6882543107347037415.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.slf4j_slf4j-api-1.7.32.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.spark-project.spark_unused-1.0.0.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.spark-project.spark_unused-1.0.0.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp4247182820938430352.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.spark-project.spark_unused-1.0.0.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-api-3.3.2.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-api-3.3.2.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp8778274821808552270.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.hadoop_hadoop-client-api-3.3.2.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/commons-logging_commons-logging-1.1.3.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/commons-logging_commons-logging-1.1.3.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp8960485207594259807.tmp
+23/02/04 17:40:24 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/commons-logging_commons-logging-1.1.3.jar to class loader
+23/02/04 17:40:24 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-runtime-3.3.2.jar with timestamp 1675525220933
+23/02/04 17:40:24 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.hadoop_hadoop-client-runtime-3.3.2.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp6380703400334157619.tmp
+23/02/04 17:40:25 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.hadoop_hadoop-client-runtime-3.3.2.jar to class loader
+23/02/04 17:40:25 INFO Executor: Fetching spark://192.168.1.16:35615/jars/org.apache.commons_commons-pool2-2.11.1.jar with timestamp 1675525220933
+23/02/04 17:40:25 INFO Utils: Fetching spark://192.168.1.16:35615/jars/org.apache.commons_commons-pool2-2.11.1.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp8302316764474408218.tmp
+23/02/04 17:40:25 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/org.apache.commons_commons-pool2-2.11.1.jar to class loader
+23/02/04 17:40:25 INFO Executor: Fetching spark://192.168.1.16:35615/jars/com.google.code.findbugs_jsr305-3.0.0.jar with timestamp 1675525220933
+23/02/04 17:40:25 INFO Utils: Fetching spark://192.168.1.16:35615/jars/com.google.code.findbugs_jsr305-3.0.0.jar to /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/fetchFileTemp5869643285506262245.tmp
+23/02/04 17:40:25 INFO Executor: Adding file:/tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f/userFiles-695de383-5dea-432b-8bc3-17aa538ad8e8/com.google.code.findbugs_jsr305-3.0.0.jar to class loader
+23/02/04 17:40:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34805.
+23/02/04 17:40:25 INFO NettyBlockTransferService: Server created on 192.168.1.16:34805
+23/02/04 17:40:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/04 17:40:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.16, 34805, None)
+23/02/04 17:40:25 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.16:34805 with 366.3 MiB RAM, BlockManagerId(driver, 192.168.1.16, 34805, None)
+23/02/04 17:40:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.16, 34805, None)
+23/02/04 17:40:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.16, 34805, None)
+23/02/04 17:40:26 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+23/02/04 17:40:26 INFO SharedState: Warehouse path is 'file:/media/ahmed/New%20Volume8/Udacity%20-%20Data%20Streaming%20Nanodegree/project/Udacity-Data-straming-Nanodegree/IOT_Integration/StreamHandler/spark-warehouse'.
+[device: string, purpose: string]23/02/04 17:40:35 INFO SparkContext: Invoking stop() from shutdown hook
+23/02/04 17:40:35 INFO SparkUI: Stopped Spark web UI at http://192.168.1.16:4041
+23/02/04 17:40:35 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+23/02/04 17:40:35 INFO MemoryStore: MemoryStore cleared
+23/02/04 17:40:35 INFO BlockManager: BlockManager stopped
+23/02/04 17:40:35 INFO BlockManagerMaster: BlockManagerMaster stopped
+23/02/04 17:40:35 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+23/02/04 17:40:35 INFO SparkContext: Successfully stopped SparkContext
+23/02/04 17:40:35 INFO ShutdownHookManager: Shutdown hook called
+23/02/04 17:40:35 INFO ShutdownHookManager: Deleting directory /tmp/spark-b7f37615-2041-449b-b64e-0ea38629369f
+23/02/04 17:40:35 INFO ShutdownHookManager: Deleting directory /tmp/spark-7f56519d-3214-4c1a-b947-1bcb8abd8261
